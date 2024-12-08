@@ -8,7 +8,303 @@
   .temp-wrapper {
     margin: 20px;
   }
-  @media all and (min-width: 320px) {
+ @media all and (min-width: 320px) {
+    .temp-wrapper {
+      width: 50%;
+      margin: 20px auto;
+    }
+    .temp-wrapper--wide {
+      width: 100%;
+    }
+    .temp-wrapper--wider {
+      width: 100%;
+    }
+  }
+  @media all and (min-width: 500px) {
+    .temp-wrapper {
+      width: 48%;
+      margin: 20px auto;
+    }
+    .temp-wrapper--wide {
+      width: 100%;
+    }
+    .temp-wrapper--wider {
+      width: 100%;
+    }
+  }
+  /*@media all and (min-width: 550px) {
+    .temp-wrapper {
+      width: 40%;
+      margin: 20px auto;
+    }
+    .temp-wrapper--wide {
+      width: 100%;
+    }
+    .temp-wrapper--wider {
+      width: 100%;
+    }
+  }*/
+  @media all and (min-width: 540px) {
+    .temp-wrapper {
+      width: 38%;
+      margin: 20px auto;
+    }
+    .temp-wrapper--wide {
+      width: 100%;
+    }
+    .temp-wrapper--wider {
+      width: 100%;
+    }
+  }
+  @media all and (min-width: 600px) {
+    .temp-wrapper {
+      width: 35%;
+      margin: 20px auto;
+    }
+    .temp-wrapper--wide {
+      width: 100%;
+    }
+    .temp-wrapper--wider {
+      width: 100%;
+    }
+  }
+  /*@media all and (min-width: 768px) {
+    .temp-wrapper {
+      width: 68.33337%;
+    }
+    .temp-wrapper--wide {
+      width: 66.66667%;
+    }
+    .temp-wrapper--wider {
+      width: 100%;
+    }
+  }*/
+  @media all and (min-width: 700px) {
+    .temp-wrapper {
+      width: 28.33337%;
+    }
+    .temp-wrapper--wide {
+      width: 66.66667%;
+    }
+    .temp-wrapper--wider {
+      width: 100%;
+    }
+  }
+ @media all and (min-width: 768px) {
+    .temp-wrapper {
+      width: 60.33337%;
+    }
+    .temp-wrapper--wide {
+      width: 66.66667%;
+    }
+    .temp-wrapper--wider {
+      width: 100%;
+    }
+  }
+  @media all and (min-width: 846px) {
+    .temp-wrapper {
+      width: 57.33337%;
+      /*width: 70.33337%;*/
+      /*width: 30.33337%;*/
+    }
+    .temp-wrapper--wide {
+      width: 66.66667%;
+    }
+    .temp-wrapper--wider {
+      width: 100%;
+    }
+  }
+  @media all and (min-width: 847px) {
+    .temp-wrapper {
+      /*width: 70.33337%;*/
+      width: 54.33337%;
+    }
+    .temp-wrapper--wide {
+      width: 66.66667%;
+    }
+    .temp-wrapper--wider {
+      width: 100%;
+    }
+  }
+  @media all and (min-width: 922px) {
+    .temp-wrapper {
+      /*width: 70.33337%;*/
+      width: 70.33337%;
+    }
+    .temp-wrapper--wide {
+      width: 66.66667%;
+    }
+    .temp-wrapper--wider {
+      width: 100%;
+    }
+  }
+  @media all and (min-width: 976px) {
+    .temp-wrapper {
+      width: 68.33337%;
+      /*width: 30.33337%;*/
+    }
+    .temp-wrapper--wide {
+      width: 66.66667%;
+    }
+    .temp-wrapper--wider {
+      width: 100%;
+    }
+  }
+ @media all and (min-width: 990px) {
+    .temp-wrapper {
+      width: 65.33337%;
+      /*width: 30.33337%;*/
+    }
+    .temp-wrapper--wide {
+      width: 66.66667%;
+    }
+    .temp-wrapper--wider {
+      width: 100%;
+    }
+  }
+  @media all and (min-width: 1000px) {
+    .temp-wrapper {
+      width: 59.33337%;
+      /*width: 30.33337%;*/
+    }
+    .temp-wrapper--wide {
+      width: 66.66667%;
+    }
+    .temp-wrapper--wider {
+      width: 100%;
+    }
+  }
+  @media all and (min-width: 1100px) {
+    .temp-wrapper {
+      width: 57.33337%;
+      /*width: 30.33337%;*/
+    }
+    .temp-wrapper--wide {
+      width: 66.66667%;
+    }
+    .temp-wrapper--wider {
+      width: 100%;
+    }
+  }
+  @media all and (min-width: 1130px) {
+    .temp-wrapper {
+      width: 54.33337%;
+      /*width: 30.33337%;*/
+    }
+    .temp-wrapper--wide {
+      width: 66.66667%;
+    }
+    .temp-wrapper--wider {
+      width: 100%;
+    }
+  }
+  @media all and (min-width: 1140px) {
+    .temp-wrapper {
+      width: 50.33337%;
+      /*width: 30.33337%;*/
+    }
+    .temp-wrapper--wide {
+      width: 66.66667%;
+    }
+    .temp-wrapper--wider {
+      width: 100%;
+    }
+  }
+  @media all and (min-width: 1150px) {
+    .temp-wrapper {
+      width: 52.33337%;
+      /*width: 30.33337%;*/
+    }
+    .temp-wrapper--wide {
+      width: 66.66667%;
+    }
+    .temp-wrapper--wider {
+      width: 100%;
+    }
+  }
+  @media all and (min-width: 1180px) {
+    .temp-wrapper {
+      width: 53.33337%;
+      /*width: 30.33337%;*/
+    }
+    .temp-wrapper--wide {
+      width: 66.66667%;
+    }
+    .temp-wrapper--wider {
+      width: 100%;
+    }
+  }
+  @media all and (min-width: 1200px) {
+    .temp-wrapper {
+      width: 50.33337%;
+      /*width: 30.33337%;*/
+    }
+    .temp-wrapper--wide {
+      width: 66.66667%;
+    }
+    .temp-wrapper--wider {
+      width: 100%;
+    }
+  }
+  @media all and (min-width: 1250px) {
+    .temp-wrapper {
+      width: 48.33337%;
+      /*width: 30.33337%;*/
+    }
+    .temp-wrapper--wide {
+      width: 66.66667%;
+    }
+    .temp-wrapper--wider {
+      width: 100%;
+    }
+  }
+  @media all and (min-width: 1300px) {
+    .temp-wrapper {
+      width: 45.33337%;
+      /*width: 30.33337%;*/
+    }
+    .temp-wrapper--wide {
+      width: 66.66667%;
+    }
+    .temp-wrapper--wider {
+      width: 100%;
+    }
+  }
+ /* @media all and (min-width: 1006px) {
+    .temp-wrapper {
+     width: 65.33337%;
+    }
+    .temp-wrapper--wide {
+      width: 50%;
+    }
+    .temp-wrapper--wider {
+      width: 75%;
+    }
+  }
+ 
+ @media all and (min-width: 1100px) {
+    .temp-wrapper {
+      width: 60%;
+    }
+    .temp-wrapper--wide {
+      width: 50%;
+    }
+    .temp-wrapper--wider {
+      width: 75%;
+    }
+      }
+     /*@media all and (min-width: 1164px) {
+        .temp-wrapper {
+          width: 50%;
+        }
+        .temp-wrapper--wide {
+          width: 50%;
+        }
+        .temp-wrapper--wider {
+          width: 75%;
+        }
+          }
+ /* @media all and (min-width: 320px) {
     .temp-wrapper {
       width: 50%;
       margin: 20px auto;
@@ -122,7 +418,7 @@
         .temp-wrapper--wider {
           width: 75%;
         }
-          }
+          }*/
   /*------------*\
   #IPHONE X
   \*------------*/

@@ -131,7 +131,7 @@
     width: 200%;
     height: 200%;
     border: 0;
-    -ms-zoom: 0.5;
+    zoom: 0.5;
     -moz-transform: scale(0.5);
     -moz-transform-origin: 0 0;
     -o-transform: scale(0.5);
@@ -264,6 +264,7 @@
     background-blend-mode: multiply;
     border-top-right-radius: 20% 90%;
   }
+  /*Responsiveness*/
   @media only screen and (max-width:600px){
     .mbp-mockup-wrapper{
       transform:scale(0.4);
@@ -274,7 +275,7 @@
       align-items:center;
       /*     position:relative;
       bottom:120px; */
-      margin:0px;
+     /* margin:0px;*/
     }
     .desktop_container{
       /*     border:2px solid blue; */
@@ -286,6 +287,50 @@
       /*     justify-content:center;  */
       align-items:center;
       margin:0px;
+    }
+  }
+ @media only screen and (min-width:600px){
+    .mbp-mockup-wrapper{
+      transform:scale(0.7);
+    }
+    .desktop-box{
+      display:grid;
+      justify-content:space-around;
+      align-items:center;
+      /*     position:relative;
+      bottom:120px; */
+      /*margin:0px;
+    }
+    .desktop_container{
+      /*     border:2px solid blue; */
+      height:70vh;
+      overflow:hidden;
+      display:flex;
+      flex-direction:column;
+      justify-content:space-around;
+      /*     justify-content:center;  */
+     align-items:center;
+      margin:0px;
+    }
+  }
+  @media only screen and (min-width:768px){
+    .mbp-mockup-wrapper{
+      transform:scale(0.5);
+    }
+  }
+  @media only screen and (min-width:922px){
+    .mbp-mockup-wrapper{
+      transform:scale(0.4);
+    }
+  }
+   @media only screen and (min-width:1000px){
+    .mbp-mockup-wrapper{
+      transform:scale(0.5);
+    }
+  }
+   @media only screen and (min-width:1200px){
+    .mbp-mockup-wrapper{
+      transform:scale(0.6);
     }
   }
   /*desktop view ed*/
